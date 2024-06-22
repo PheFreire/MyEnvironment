@@ -1,0 +1,12 @@
+# In the services we create blocks that corresponds to each image and services and those configurations (uses tab to space between each block)
+services:
+  duck-ubuntu:
+    container_name: Lemon
+    image: myenvironment
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    # dockerfile: Dockerfile-test
+    # image: archlinux
+    # ports: ['8000:']
